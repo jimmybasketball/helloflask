@@ -8,7 +8,7 @@ from flask_migrate import Migrate
 app = Flask(__name__)
 db = SQLAlchemy(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://mha:mhapwd@172.19.2.52:3306/mj_test'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://xxxxx'
 app.config['SECRET_KEY'] = 'secret_key'
 migrate = Migrate(app,db)
 
